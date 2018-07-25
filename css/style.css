@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: url('../img/rojo.jpg') fixed /*esto es para el background attachment, en este caso es para que se 'fije'*/;
+}
+
+#logo {
+    display: inline-block;
+    width: auto;
+    font-size: 48px;
+    font-family: "Sylfaen", sans-serif;
+    letter-spacing: 1px;
+    padding: 4px;
+    color: white;
+}
+
+#global {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 2px #cccccc;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+nav {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: block;
+    background: black;
+}
+
+nav ul {
+    line-height: 45px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 46px;
+    transition: all 300ms;
+}
+nav li a {
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#posts{
+    width: 60%;
+    float: left;
+    padding: 5px;
+    font-family: Helvetica, Arial, serif;
+}
+
+.post{
+    padding: 7px;
+}
+
+.post h2{
+    font-size: 30px;
+}
+
+.post .date{
+    display: block;
+    color: gray;
+    margin-top: 4px;
+}
+
+.post p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.button-more{
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 8px;
+    color: white;
+    float: right;
+}
+
+#sidebar{
+    font-family: Helvetica, Arial, serif;
+    width: 31%;
+    float: right;
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span{
+    background: white;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    font-size: 15px;
+    text-align: justify     ;
+}
+
+#form input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+}
+#form input[type="submit"]{
+    background: #eee;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    color: #333;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 47px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+
+#theme-selector{
+    position: fixed;
+    top:50%;
+    background: rgba(51,51,51,0.7);
+    width: 50px;
+    height: 100px;
+}
+#theme-selector div{
+    transition: all 300ms;
+}
+#green, #red, #blue{
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#green{
+    background: mediumseagreen;
+}
+#red{
+    background: darkred;
+}
+#blue{
+    background: dodgerblue;
+}
+.up{
+    text-decoration: none;
+    color: #eee;
+    display: block;
+    float: right ;
+}

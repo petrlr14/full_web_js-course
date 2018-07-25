@@ -1,0 +1,19 @@
+body {
+    background: url('../img/hojas.jpg') fixed /*esto es para el background attachment, en este caso es para que se 'fije'*/;
+}
+
+#logo {
+    background: mediumseagreen;
+    color: white;
+}
+
+nav {
+    background: black;
+}
+
+nav ul li:hover {
+    background: mediumseagreen;
+}
+.button-more{
+    background: mediumseagreen;
+}

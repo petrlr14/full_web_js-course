@@ -1,0 +1,19 @@
+body {
+    background: url('../img/cielo.jpg') fixed /*esto es para el background attachment, en este caso es para que se 'fije'*/;
+}
+
+#logo {
+    background: dodgerblue;
+    color: white;
+}
+
+nav {
+    background: black;
+}
+
+nav ul li:hover {
+    background: dodgerblue;
+}
+.button-more{
+    background: dodgerblue;
+}

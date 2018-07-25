@@ -1,0 +1,19 @@
+body {
+    background: url('../img/rojo.jpg') fixed /*esto es para el background attachment, en este caso es para que se 'fije'*/;
+}
+
+#logo {
+    background: darkred;
+    color: white;
+}
+
+nav {
+    background: black;
+}
+
+nav ul li:hover {
+    background: darkred;
+}
+.button-more{
+    background: darkred;
+}
